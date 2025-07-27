@@ -1,0 +1,67 @@
+2025-07-21 20:14:17,769 INFO Ingesting purchases.csv in db
+2025-07-21 20:14:45,274 INFO ✅ Ingested table: purchases
+2025-07-21 20:14:45,389 INFO Ingesting purchase_prices.csv in db
+2025-07-21 20:14:45,449 INFO ✅ Ingested table: purchase_prices
+2025-07-21 20:14:45,455 INFO Ingesting vendor_invoice.csv in db
+2025-07-21 20:14:45,485 INFO ✅ Ingested table: vendor_invoice
+2025-07-21 20:14:45,648 INFO Ingesting begin_inventory.csv in db
+2025-07-21 20:14:46,553 INFO ✅ Ingested table: begin_inventory
+2025-07-21 20:14:46,728 INFO Ingesting end_inventory.csv in db
+2025-07-21 20:14:47,693 INFO ✅ Ingested table: end_inventory
+2025-07-21 20:15:00,356 INFO Ingesting sales.csv in db
+2025-07-21 20:19:45,861 ERROR Failed to ingest table: sales | Error: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-21 20:19:45,863 INFO -----------Ingestion complete-----------
+2025-07-21 20:19:45,863 INFO 
+Total time taken:5.513542246818543 minutes
+2025-07-22 12:06:28,449 INFO Ingesting purchases.csv in db
+2025-07-22 12:06:57,350 INFO Ingesting purchase_prices.csv in db
+2025-07-22 12:06:57,418 INFO Ingesting vendor_invoice.csv in db
+2025-07-22 12:06:57,602 INFO Ingesting begin_inventory.csv in db
+2025-07-22 12:06:58,752 INFO Ingesting end_inventory.csv in db
+2025-07-22 12:07:12,359 INFO Ingesting sales.csv in db
+2025-07-22 12:09:52,851 INFO Ingesting purchases.csv in db
+2025-07-22 12:10:21,848 INFO ✅ Ingested table: purchases
+2025-07-22 12:10:21,954 INFO Ingesting purchase_prices.csv in db
+2025-07-22 12:10:22,018 INFO ✅ Ingested table: purchase_prices
+2025-07-22 12:10:22,024 INFO Ingesting vendor_invoice.csv in db
+2025-07-22 12:10:22,058 INFO ✅ Ingested table: vendor_invoice
+2025-07-22 12:10:22,215 INFO Ingesting begin_inventory.csv in db
+2025-07-22 12:10:23,211 INFO ✅ Ingested table: begin_inventory
+2025-07-22 12:10:23,392 INFO Ingesting end_inventory.csv in db
+2025-07-22 12:10:24,567 INFO ✅ Ingested table: end_inventory
+2025-07-22 12:10:37,274 INFO Ingesting sales.csv in db
+2025-07-22 12:19:45,281 INFO ✅ Ingested table: sales
+2025-07-22 12:19:45,289 INFO -----------Ingestion complete-----------
+2025-07-22 12:19:45,289 INFO 
+Total time taken:9.921543598175049 minutes
+2025-07-23 12:11:20,710 INFO Creating Vendor Summary Table.....
+2025-07-23 12:11:36,737 INFO    VendorNumber  ... FreightCost
+0          1128  ...    68601.68
+1          4425  ...   144929.24
+2         17035  ...   123780.22
+3          3960  ...   257032.07
+4          3960  ...   257032.07
+
+[5 rows x 14 columns]
+2025-07-23 12:11:36,750 INFO Cleaning Data....
+2025-07-23 12:25:50,116 INFO Creating Vendor Summary Table.....
+2025-07-23 12:26:05,886 INFO    VendorNumber  ... FreightCost
+0          1128  ...    68601.68
+1          4425  ...   144929.24
+2         17035  ...   123780.22
+3          3960  ...   257032.07
+4          3960  ...   257032.07
+
+[5 rows x 14 columns]
+2025-07-23 12:26:05,899 INFO Cleaning Data....
+2025-07-23 12:26:05,903 INFO    VendorNumber  ... SalesToPurchaseRatio
+0          1128  ...             1.338647
+1          4425  ...             1.266830
+2         17035  ...             1.327594
+3          3960  ...             1.372493
+4          3960  ...             1.396897
+
+[5 rows x 18 columns]
+2025-07-23 12:26:05,909 INFO Ingesting data.....
+2025-07-23 12:26:05,934 INFO ✅ Ingested table: vendor_sales_summary
+2025-07-23 12:26:05,934 INFO Completed
